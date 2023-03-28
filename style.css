@@ -468,6 +468,15 @@ video {
     --tw-gradient-to: #3b82f6
 }
 
+.to-blue-600 {
+    --tw-gradient-to: #2563eb
+}
+
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
 .px-2 {
     padding-left: .5rem;
     padding-right: .5rem
@@ -524,6 +533,10 @@ video {
     font-weight: 700
 }
 
+.font-extrabold {
+    font-weight: 800
+}
+
 .text-\[\#66FCF1\] {
     --tw-text-opacity: 1;
     color: rgb(102 252 241 / var(--tw-text-opacity))
@@ -539,9 +552,18 @@ video {
     color: rgb(107 114 128 / var(--tw-text-opacity))
 }
 
+.text-transparent {
+    color: transparent
+}
+
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.hover\:bg-gray-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-gradient-to-r:hover {
@@ -623,6 +645,10 @@ video {
 }
 
 @media (min-width: 768px) {
+    .md\:w-2\/3 {
+        width: 66.666667%
+    }
+
     .md\:px-10 {
         padding-left: 2.5rem;
         padding-right: 2.5rem
@@ -668,6 +694,11 @@ video {
         margin-bottom: .75rem
     }
 
+    .lg\:my-8 {
+        margin-top: 2rem;
+        margin-bottom: 2rem
+    }
+
     .lg\:ml-10 {
         margin-left: 2.5rem
     }
@@ -700,8 +731,16 @@ video {
         width: 40%
     }
 
+    .lg\:w-3\/4 {
+        width: 75%
+    }
+
     .lg\:w-4\/5 {
         width: 80%
+    }
+
+    .lg\:w-\[350px\] {
+        width: 350px
     }
 
     .lg\:w-\[60\%\] {
@@ -718,6 +757,10 @@ video {
 
     .lg\:justify-start {
         justify-content: flex-start
+    }
+
+    .lg\:justify-evenly {
+        justify-content: space-evenly
     }
 
     .lg\:rounded-2xl {
@@ -760,9 +803,19 @@ video {
         line-height: 2rem
     }
 
+    .lg\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+
     .lg\:text-5xl {
         font-size: 3rem;
         line-height: 1
+    }
+
+    .lg\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem
     }
 }
 
@@ -774,6 +827,10 @@ video {
 
     .xl\:w-5\/6 {
         width: 83.333333%
+    }
+
+    .xl\:w-\[450px\] {
+        width: 450px
     }
 
     .xl\:px-5 {
